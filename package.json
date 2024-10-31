@@ -1,0 +1,41 @@
+{
+  "name": "quick-view-popup-woo",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "vite build --mode development --watch",
+    "build": "vite build",
+    "preview": "vite preview",
+    "clean": "vite clean",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "format": "prettier --write src/"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.1.0",
+    "@tinymce/tinymce-vue": "^5.0.1",
+    "axios": "^1.2.6",
+    "element-plus": "^2.2.36",
+    "grunt-replace": "^2.0.2",
+    "pinia": "^2.0.32",
+    "sass": "^1.58.3",
+    "tinymce": "^6.4.1",
+    "venobox": "^2.1.7",
+    "vue": "^3.2.47",
+    "vue-resizable": "^2.1.7",
+    "vuedraggable": "^4.1.0"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.2.0",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "@vue/eslint-config-prettier": "^7.1.0",
+    "eslint": "^8.34.0",
+    "eslint-plugin-vue": "^9.9.0",
+    "grunt": "^1.5.3",
+    "grunt-contrib-copy": "^1.0.0",
+    "prettier": "^2.8.4",
+    "unplugin-auto-import": "^0.17.5",
+    "unplugin-element-plus": "^0.7.2",
+    "unplugin-vue-components": "^0.24.1",
+    "vite": "^5.2.2"
+  }
+}
